@@ -1,0 +1,257 @@
+
+
+@font-face {
+  font-family: 'ArialNarrow';
+  src:url('../fonts/ArialNarrow.eot?-kwf309');
+  src:url('../fonts/ArialNarrow.eot?#iefix-kwf309') format('embedded-opentype'),
+    url('../fonts/ArialNarrow.woff?-kwf309') format('woff'),
+    url('../fonts/ArialNarrow.ttf?-kwf309') format('truetype'),
+    url('../fonts/ArialNarrow.svg?-kwf309#AA-Arial') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}  
+
+
+@font-face {
+  font-family: NoirPro-Regular;
+  src: url(../fonts/NoirPro-Regular.eot);
+  src: url(../fonts/NoirPro-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/NoirPro-Regular.otf) format("otf"), url(../images/icons/NoirPro-Regularebc2368e0313f5ffe1d1.svg#NoirPro-Regular) format("svg"), url(../fonts/NoirPro-Regular.ttf) format("truetype"), url(../fonts/NoirPro-Regular.woff) format("woff"), url(../fonts/NoirPro-Regular.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: NoirPro-Medium;
+  src: url(../fonts/NoirPro-Medium.eot);
+  src: url(../fonts/NoirPro-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/NoirPro-Medium.otf) format("otf"), url(../images/icons/NoirPro-Medium0fcd342218bd9d945e48.svg#NoirPro-Medium) format("svg"), url(../fonts/NoirPro-Medium.ttf) format("truetype"), url(../fonts/NoirPro-Medium.woff) format("woff"), url(../fonts/NoirPro-Medium.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: NoirPro-Light;
+  src: url(../fonts/NoirPro-Light.eot);
+  src: url(../fonts/NoirPro-Light.eot?#iefix) format("embedded-opentype"), url(../fonts/NoirPro-Light.otf) format("otf"), url(../images/icons/NoirPro-Lightb41506e390f39f464006.svg#NoirPro-Light) format("svg"), url(../fonts/NoirPro-Light.ttf) format("truetype"), url(../fonts/NoirPro-Light.woff) format("woff"), url(../fonts/NoirPro-Light.woff2) format("woff2")
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #1d1d1d;
+  font-size: 16px;
+  background:url(../images/backg_03.png) 0 0 repeat;
+  letter-spacing: 1px;
+  font-family: NoirPro-Regular;
+}
+
+a {color: #888; text-decoration: none;}
+a:hover {color: #888; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.clear {clear:both;}
+
+
+button {
+  border:none;
+  background: none;
+  box-shadow: unset;
+  
+}
+
+button:focus {
+  outline: none;
+  box-shadow: unset;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+  position: fixed;
+  padding: 35px 0 35px 0;
+  background:url(../images/backg_03.png) 0 0 repeat;
+  width: 100%;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+.logo {
+  background: #fff;
+  width: 242px;
+  height: 44px;
+}
+
+.menu__top {
+
+  margin: 0 0 0 59px;
+}
+
+.menu__top li {
+  margin: 0 54px 0 0;
+}
+
+.lk__top {
+  
+
+}
+
+.section-2 {
+  padding: 130px 0 0 0;
+}
+
+.section-2 .row {
+  margin: 0 12.5px;
+}
+
+.section-2 .col-md-6 {
+  padding: 0 2.5px;
+}
+
+.search__top input {
+  border:none;
+  border-radius: 15px;
+  height: 35px;
+}
+
+
+
+
+
+h2 {
+  font-size: 25px;
+}
+
+
+
+.work__block {
+  padding: 20px 20px 20px 20px;
+  border:1px solid transparent;
+  border-radius: 20px;
+  background: #fff url(../images/osago-big.png) 95% 60% no-repeat;
+  background-size: 25%;
+}
+
+.work__block:hover {
+  border-color:#c03;
+  background: #fff url(../images/osago-big-h.png) 95% 60% no-repeat;
+  background-size: 25%;
+}
+
+.work__title {
+  margin: 0 0 108px 0;
+}
+
+.work__title2 {
+  margin: 0 0 18px 0;
+}
+
+
+.main-button {
+  border-radius: 7px;
+  color: #000;
+  width: 162px;
+  height: 48px;
+  border:1px solid #000;
+}
+
+.main-button2 {
+  border-radius: 7px;
+  color: #000;
+  width: 162px;
+  height: 32px;
+  border:1px solid #000;
+}
+
+.work__block:hover .main-button {
+  border-color:#c03;
+  color: #c03;
+  transition: all 0.3s;
+}
+
+.work__block:hover h2 {
+  color: #c03;
+  transition: all 0.3s;
+}
+
+.work__block2 {
+  padding: 15px 20px 15px 20px;
+  border:1px solid transparent;
+  border-radius: 20px;
+  background: #fff url(../images/car.png) 95% 60% no-repeat;
+  background-size: 15%;
+  margin: 0 0 5px 0;
+}
+
+.work__block2:hover {
+  border-color:#c03;
+  background: #fff url(../images/car-h.png) 95% 60% no-repeat;
+  background-size: 15%;
+}
+
+.work__block2:hover .work__title2 {
+  color: #c03;
+  transition: all 0.3s;
+}
+
+.work__block2:hover .main-button2 {
+  border-color:#c03;
+  color: #c03;
+  transition: all 0.3s;
+}
+
+.work__block3 {
+  padding: 15px 20px 15px 20px;
+  border:1px solid transparent;
+  border-radius: 20px;
+  background: #fff url(../images/home.png) 95% 60% no-repeat;
+  background-size: 15%;
+}
+
+.work__block3:hover {
+  border-color:#c03;
+  background: #fff url(../images/home-h.png) 95% 60% no-repeat;
+  background-size: 15%;
+}
+
+.work__block3:hover .work__title2 {
+  color: #c03;
+  transition: all 0.3s;
+}
+
+.work__block3:hover .main-button2 {
+  border-color:#c03;
+  color: #c03;
+  transition: all 0.3s;
+}
+
+footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
