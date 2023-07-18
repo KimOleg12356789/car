@@ -72,6 +72,11 @@ img {
   height: auto;
 }
 
+.menu__top li a:hover {
+  color: #c03;
+  transition: 0.3s;
+}
+
 
 header {
   position: fixed;
